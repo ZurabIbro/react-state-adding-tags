@@ -1,0 +1,37 @@
+.container{
+    width: 500px;
+    margin: auto;
+}
+form{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+form input{
+    padding: 10px ;
+}
+form button{
+    padding: 10px 10px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+}
+.list li{
+    display: flex;
+    margin-right: 80px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 149, 255, 0.32);
+    color: blue;
+    align-items: center;
+    border-radius: 15px;
+    padding: 2px 10px;
+}
+.list li button{
+    margin-left: 20px;
+    border-radius: 50px;
+    background-color: blue;
+    border: none;
+    color: rgb(0, 157, 255);
+}
